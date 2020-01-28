@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center"
+    android:id="@+id/txtLvl"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:hint="battery level"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="battery temperature"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="battery charging status"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="battery type"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="battery voltage"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="battery heath"
+        />
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:id="@+id/txt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Plugged type"
+        />
+
+</LinearLayout>
